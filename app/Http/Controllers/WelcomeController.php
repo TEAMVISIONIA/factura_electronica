@@ -10,4 +10,9 @@ class WelcomeController extends Controller
     {
         return view('dash.welcome');
     }
+
+    public function store(Request $request)
+    {
+        return "Peticion POST";
+    }
 }
