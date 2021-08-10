@@ -17,3 +17,6 @@ use App\Http\Controllers\WelcomeController;
 
 Route::get('/', [WelcomeController::class, 'index']);
 Route::post('/', [WelcomeController::class, 'store']);
+Route::get('/post', function(){
+    return "Hola";
+});
